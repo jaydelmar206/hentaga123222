@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <title>SignUp</title>
+</head>
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <a href="home.html"><img src="picture/Hentagawhite.png" class="logo"></a>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="#">Series</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">Upcoming</a></li>
+            </ul>
+        </div>
+
+    <div class="container">
+        <h1>Sign Up</h1>
+        <form action="signup_process.php" method="post">
+            <label for="username"></label>
+            <input type="text" id="username" name="firstname" placeholder="First name" required>
+            <label for="username"></label>
+            <input type="text" id="middle" name="firstname" placeholder="Middle name / Optional" optional>
+            <label for="lastname"></label>
+            <input type="text" id="lastname" name="lastname" placeholder="Lastname" required>
+            <label for="email"></label>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+            <label for="password"></label>
+            <input type="password" id="password" name="password" placeholder="Create a password" required>
+            <label for="password"></label>
+            <input type="password" id="confirm password" name="password" placeholder="Confirm password" match>
+            <button type="submit">Sign Up</button>
+        </form>
+        <p>Already a member? <a href="login.html">Log in</a></p>
+    </div>
+</body>
+</html>

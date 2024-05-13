@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Login Page</title>
+</head>
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <a href="home.html"><img src="picture/Hentagawhite.png" class="logo"></a>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="#">Series</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">Upcoming</a></li>
+            </ul>
+        </div>
+
+        <div class="container">
+            <h1>Sign in</h1>
+            <form action="action_page.php" method="post">
+                <label for="username"></label>
+                <input type="text" id="username" name="username" placeholder="Email" required>
+                <label for="password"></label>
+                <input type="password" id="password" name="password" placeholder="Password" required>
+                <button type="submit">Login</button>
+                <p>Don't have an account?<a href="signup.html"> Sign Up</a></p>
+            </form>
+        </div>
+        </div>
+</body>
+</html>
